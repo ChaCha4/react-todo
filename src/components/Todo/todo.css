@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  width: 400px;
+  background-color: #fff;
+  outline: none;
+  padding-left: 20px;
+}
+.list {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+  width: 600px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px #ccc;
+}
+.list li {
+  display: flex;
+  font-size: 20px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: 60px;
+  justify-content: space-between;
+}
+.list > li + li {
+  border-top: 1px solid #ccc;
+}
+.delete {
+  margin-right: 20px;
+  width: 10px;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  margin-left: 60px;
+  cursor: pointer;
+}
